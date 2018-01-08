@@ -109,13 +109,13 @@ export class GooglePlacesAutocomplete {
 
   _dispatchEvent() {
     let event = null; // Firefox needs this!
-    if (!this._element.firstElementChild.form.attributes['submit.delegate']) return;
+    if (!this._element.firstElementChild.form.attributes['click.delegate']) return;
     let customEvent;
     if (window.CustomEvent)
-      customEvent = new CustomEvent('submit', { bubbles: true, detail: event });
+      customEvent = new CustomEvent('click', { bubbles: true, detail: event });
     else {
       customEvent = document.createEvent('CustomEvent');
-      customEvent.initCustomEvent('submit', true, true, { data: event });
+      customEvent.initCustomEvent('click', true, true, { data: event });
     }
     this._element.firstElementChild.form.dispatchEvent(customEvent);
     this._element.firstElementChild.blur();
