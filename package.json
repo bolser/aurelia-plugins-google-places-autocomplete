@@ -1,5 +1,5 @@
 {
-  "name": "bolser-aurelia-plugins-google-places-autocomplete",
+  "name": "aurelia-plugins-google-places-autocomplete",
   "version": "2.5.5",
   "description": "A Google Places Autocomplete plugin for Aurelia.",
   "keywords": [
@@ -10,16 +10,16 @@
     "places",
     "autocomplete"
   ],
-  "homepage": "https://github.com/bolser/bolser-aurelia-plugins-google-places-autocomplete",
+  "homepage": "https://github.com/bolser/aurelia-plugins-google-places-autocomplete",
   "license": "MIT",
   "author": "Bart Lenaerts <bart@codious.be> (http://codious.be/)",
   "bugs": {
-    "url": "https://github.com/bolser/bolser-aurelia-plugins-google-places-autocomplete/issues"
+    "url": "https://github.com/bolser/aurelia-plugins-google-places-autocomplete/issues"
   },
   "main": "dist/commonjs/aurelia-plugins-google-places-autocomplete.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bolser/bolser-aurelia-plugins-google-places-autocomplete.git"
+    "url": "git://github.com/bolser/aurelia-plugins-google-places-autocomplete.git"
   },
   "dependencies": {
     "aurelia-binding": "^1.2.1",
@@ -49,7 +49,7 @@
   },
   "jspm": {
     "registry": "npm",
-    "main": "bolser-aurelia-plugins-google-places-autocomplete",
+    "main": "aurelia-plugins-google-places-autocomplete",
     "format": "amd",
     "directories": {
       "dist": "dist/amd"
@@ -65,8 +65,8 @@
   "aurelia": {
     "build": {
       "resources": [
-        "bolser-aurelia-plugins-google-places-autocomplete/aurelia-plugins-google-places-autocomplete-converter",
-        "bolser-aurelia-plugins-google-places-autocomplete/aurelia-plugins-google-places-autocomplete-element"
+        "aurelia-plugins-google-places-autocomplete/aurelia-plugins-google-places-autocomplete-converter",
+        "aurelia-plugins-google-places-autocomplete/aurelia-plugins-google-places-autocomplete-element"
       ]
     }
   }
