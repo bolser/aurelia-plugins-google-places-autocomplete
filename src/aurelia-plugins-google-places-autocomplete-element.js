@@ -108,6 +108,7 @@ export class GooglePlacesAutocomplete {
   }
 
   _dispatchEvent() {
+    let event = null; // Firefox needs this!
     if (!this._element.firstElementChild.form.attributes['submit.delegate']) return;
     let customEvent;
     if (window.CustomEvent)
